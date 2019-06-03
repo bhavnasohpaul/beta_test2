@@ -1,0 +1,44 @@
+<ion-content padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12">
+        <div>
+          <img src="../../assets/imgs/LandingPage_EN_1024x360.jpg" alt="Banner Image" style="height:auto; width:100%"/>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="6" style="margin: 2% auto;">
+        <ion-item>
+          <ion-label position="floating">Email</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Password</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+        <ion-list>
+            <ion-list-header></ion-list-header>
+          <ion-item>
+            <ion-label>City</ion-label>
+            <ion-select value="VANCOUVER" okText="Okay" cancelText="Dismiss">
+              <ion-select-option value="VANCOUVER">Toronto</ion-select-option>
+              <ion-select-option value="CALGARY">Calgary</ion-select-option>
+              <ion-select-option value="WINNIPEG">Winnipeg</ion-select-option>
+              <ion-select-option value="EDMONTON">Edmonton</ion-select-option>
+              <ion-select-option value="HALIFAX">Halifax</ion-select-option>
+              <ion-select-option value="MONTRAL_NORTH">Montreal North</ion-select-option>
+              <ion-select-option value="QUEBEC">Quebec</ion-select-option>
+              <ion-select-option value="ONTARIO_WEST">Ontario West</ion-select-option>
+              <ion-select-option value="MONTREAL_SOUTH">Montreal South</ion-select-option>
+              <ion-select-option value="OTTAWA">Ottawa</ion-select-option>
+            </ion-select>
+          </ion-item>
+        </ion-list>
+        <div style="text-align: center;">
+          <ion-button href="/user-authentication" size="large" color="dark">Log In</ion-button>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
